@@ -15,15 +15,8 @@ pip install -r requirements.txt
 
 ## Notebooks Descriptions
 In a nutshell, here is a brief description of what to expect in different Jupiter notebooks.
-1. __1_Data_Preparation.ipynb:__ Reads the LPBF images, crop and label them, store as hdf5 file formate.
-2. __2_Image_Augmentation.ipynb:__ Covers the various image data augmentation methods
-3. 31_Image_Brightness_Edge_Detection_Binarisation.ipynb: Explains different image enhancement methods.
-4. 3_Image_Enhancement_Examples.ipynb: Explains image histogram analysis, thresholding and Otsu binarization.
-5. 4_Model_Training_CAD.ipynb: Trains a CNN using CAD labelling technique.
-6. 5_Model_Training_XCT.ipynb: Trains a CNN using the XCT labelling approach.
-7. 6_Model_Training_XCT-Debugging.ipynb: Explore the model's performance in predicting various sizes of pores.
-8. 7_1_Hyperparameter_Tuning - Part1.ipynb: Prepares data for hyper-parameter tuning.
-9. 7_2_Hyper_Parameter_Tuning - Part2.ipynb: Test CNN model with a range of hyper-parameters using hyperband tuner.
-10. 7_3_Hyper_Parameter_Tuning - Part3.ipynb: Visualise and analyse hyper-parameter results.
-11. 8_Model_training_XCT_Balanced_Data.ipynb: Final model trained on XCT labelled images and using balanced data after upsampling minority class via data augmentation. 
-
+1. __1_Data_Preparation.ipynb:__ Reads the LPBF images, crops and labels them, and stores them as hdf5 file format.
+2. __2_Sensor_Log_Files.ipynb:__ Explore and analyse different sensor files.
+3. __3_Model_Building.ipynb:__ Trains a CNN Model.
+4. __4_Model_Debugging.ipynb:__ Debuggs the model's internal working by visualising kernels and the CNN's feature maps of convolutional layers.
+5. __5_Model_learning_rate_variation.ipynb:__ Final model trained on balanced data experimented with various learning rates of the optimisation algorithm, RMSprop.
