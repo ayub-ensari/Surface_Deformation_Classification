@@ -15,8 +15,8 @@ pip install -r requirements.txt
 
 ## Notebooks Descriptions
 In a nutshell, here is a brief description of what to expect in different Jupiter notebooks.
-1. 1_Data_Collection.ipynb: Explains the image reading, cropping images, labelling images and storing the final datasets.
-2. 2_Image_Augmentation.ipynb: Covers the various image data augmentation methods
+1. __1_Data_Preparation.ipynb:__ Reads the LPBF images, crop and label them, store as hdf5 file formate.
+2. __2_Image_Augmentation.ipynb:__ Covers the various image data augmentation methods
 3. 31_Image_Brightness_Edge_Detection_Binarisation.ipynb: Explains different image enhancement methods.
 4. 3_Image_Enhancement_Examples.ipynb: Explains image histogram analysis, thresholding and Otsu binarization.
 5. 4_Model_Training_CAD.ipynb: Trains a CNN using CAD labelling technique.
